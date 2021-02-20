@@ -17,6 +17,9 @@ function App() {
         <Route exact path="/about" >
           <About />
         </Route>
+        <Route path="/education">
+          <Education />
+        </Route>
       </div>
     </Router>
   )
