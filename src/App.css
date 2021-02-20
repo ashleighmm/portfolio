@@ -34,20 +34,32 @@ nav {
     rgba(0, 250, 154, 1) 80%
   );
 }
-nav ul
-{
-  font-size:var(--fontsize-nav) ;
+nav ul {
+  font-size: var(--fontsize-nav);
   text-align: center;
   list-style-type: none;
   text-decoration: none;
   color: white !important;
 }
-nav ul li
-{
-  margin:40px;
+nav ul li {
+  margin: 40px;
 }
 /* css for active class */
-.active
-{
-font-weight: bolder;
+.active {
+  font-weight: bolder;
+}
+
+.social {
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+}
+.social i {
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.social i:hover {
+  color: #ffffff;
 }
