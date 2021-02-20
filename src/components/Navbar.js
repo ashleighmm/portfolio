@@ -9,12 +9,12 @@ class Navbar extends Component {
     };
   }
   activeItem = (x) => {
-    if (this.state.NavitemId.length > 0) {
+    if (this.state.NavitemActive.length > 0) {
       document
         .getElementById(this.state.NavitemActive)
         .classList.remove("active");
     }
-    this.setState({ NavItemId: x }, () => {
+    this.setState({ NavitemActive: x }, () => {
       document.getElementById(this.state.NavitemActive).classList.add("active");
     });
   };
