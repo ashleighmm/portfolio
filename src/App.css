@@ -46,3 +46,8 @@ nav ul li
 {
   margin:40px;
 }
+/* css for active class */
+.active
+{
+font-weight: bolder;
+}
